@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Run 'git init' to create a new empty git repository in the same directory as the files you want to work with. When you do this, an empty .git repository is created.
+
+At this stage, your repository doesn't contain any commits, only information/metadata including which branch you're in, and how many untracked files are in the repository. Use the 'git status' command to get information on the repository and its files.
+
+------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+When using git, we have three areas:
+1 - working directory
+2 - staging area
+3 - repository
+
+The working directory exists with or without git. It's the directory you created to hold all of the files you're working on. Your working directory, for example, may hold a .html file, a .css file, and a .js file. Until you initialize a repository, this is just a normal working directory on you computer.
+
+The repository is a .git directory that holds metadata on your repository and holds commits. It is initialized usin the 'git init' command.
+
+The staging area is a 'holding' area between the working directory and the repository. When you're ready to make a commit, you first need to add the files to be commited to the staging area. You do this usin the 'git add' command, followed by the file name to be added. Use 'git status' to see which files have been added to the staging area before commiting them. Use 'git reset' to remove files from the staging area.
+
+The staging area is an intermediate step, a place to hold files temporarily before the commit. This allows you to review the files to be commited and add information to them before making the commit.
