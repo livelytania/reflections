@@ -1,0 +1,33 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A1: The diff function compared the two files for me, and showed me only those lines on which there was a difference between the two files.
+
+A1: It was much easier for me to compare the lines identified by the diff function, rather than manually comparing the entirety of both files.
+
+A1: In the end, diff saved me a lot of time and effort.
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A2: It can save you time when an error occurs. Instead of finding and fixing the error, version-control allows you to quickly revert to a previous version before the error was introduced.
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A3: With manual commits, the user is more likely to forget to perform commits. Automatic commits removes the onus on the user, thus eliminating this potential error.
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A4: Google Docs allows you to add formatting and structure to a document, such as headings and a table of content, so that more information can logically be stored in a single file. In a plain text editor like Brackets, it's harder to add such structure to a file. Also, it's important to keep files small so that they run more smoothly. Keeping separate types of information in separate forms means that small files can be executed, and other files are only drawn upon when needed, keeping the overall amount of information processed smaller than if everything was in a single file.
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+
+A5: The git log command allows you to see the history and details of each commit made.
+
+A5: git diff allows you to compare the differences between two files or two commits of the same file.
+
+Q6: How might using version control make you more confident to make changes that could break something?
+
+A6: Because I know that even if I make a mistake, I can always go back to my latest working version and start again from there.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+
+A7: I want to use git to save versions of my work for my freeCodeCamp projects.
