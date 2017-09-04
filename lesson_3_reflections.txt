@@ -7,3 +7,13 @@ A remote repository is useful when you want to share you work with others.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may want to wait to update your local (i.e. Git) repository until the changes you've made in your remote repository are ready. Perhaps you're waiting on a review or input from another person.
+
+-----------------------------
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a copy of a GitHub repository. The fork resides on your GitHub account. You would fork a repository when you want to make changes to a GitHub repository, but don't have permission to make changes to the original. Instead, you would fork (i.e. copy or clone) the repository to your own GitHub account using the "Fork" button. A forked repository contains a link to the original repository and its creator.
+
+A clone is a copy of a repository. It's possible to clone a repository from GitHub onto your own local machine, or to clone a repository that already exists on your own machine so that you have two copies. You would clone a GitHub repository onto your own machine if you want to work on the repository.
+
+A branch is a label that's given to a series of commits. The branch label points to the most recent commit in a series of commits. Each time you commit, the branch label moves up automatically to point to this new commit. The default branch name in Git is 'master'. Creating a new branch adds a new branch label, that points to the most recent commit in the new branch.
