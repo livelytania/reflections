@@ -20,3 +20,41 @@ The repository is a .git directory that holds metadata on your repository and ho
 The staging area is a 'holding' area between the working directory and the repository. When you're ready to make a commit, you first need to add the files to be commited to the staging area. You do this usin the 'git add' command, followed by the file name to be added. Use 'git status' to see which files have been added to the staging area before commiting them. Use 'git reset' to remove files from the staging area.
 
 The staging area is an intermediate step, a place to hold files temporarily before the commit. This allows you to review the files to be commited and add information to them before making the commit.
+
+------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to compare the file you've just made changes to to your most recent commit, to see the changes and make sure it's a logical change.
+
+There are two ways to use the staging area to do this:
+
+1. If your working file hasn't been added to the staging area yet, use the command 'git diff' to compare your working file to the most recent commit (before you add anything to the staging area, it contains a copy of the most recent commit).
+
+2. If your working file has been added to the staging area, use the command 'git diff --staging' to compare the files in the staging area to the most recent commit in the repository.
+
+-----------------------
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Lets say you'd like to try something different with your code, but you're not sure it will work. For example, if you're coding a game, and you want to try creating an 'easy' version of the game, alongside with regular play, you could do this using a branch.
+
+-----------------------
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easy to visualize the branch structure, because you can see the connections between branches and various commits.
+
+-----------------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A branch is used to do experimental work without messing up the master branch. Or branches can be used when more than one person wants to work on the same code. Once the experimental work is done and ready to go, or multiple people working on the same code are ready to bring their work together, this can be cone by merging the branches back to the master branch.
+
+The diagrams are a visual representation of branches, and show where a branch diverged from the master branch, and where it merges back with the master branch.
+
+-----------------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is quick, easy, and can sometimes prevent human error. The cons are that git can't always figure out complex changes to the same areas in the code, and so manual merging is necessary - in this case different changes to the same bit of code need to be examined and the change resolved (by a human) before the merging can be completed.
