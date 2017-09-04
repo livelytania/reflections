@@ -23,3 +23,11 @@ A branch is a label that's given to a series of commits. The branch label points
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This makes it easy to know what changes have been made since the last pull from the remote repository.
+
+-----------------------------
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+To callaborate, different people would have to send each other different versions of the same file. The different versions would have to be compared and merged manually. This would be time consuming and error prone.
+
+GitHub makes things easier by taking care of version control and automatic merging. It also makes reviewing and commenting easier. But, Git and GitHub comes with a learning curve - which can be a drawback for those that have never used it before.
