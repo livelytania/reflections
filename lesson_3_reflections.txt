@@ -31,3 +31,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 To callaborate, different people would have to send each other different versions of the same file. The different versions would have to be compared and merged manually. This would be time consuming and error prone.
 
 GitHub makes things easier by taking care of version control and automatic merging. It also makes reviewing and commenting easier. But, Git and GitHub comes with a learning curve - which can be a drawback for those that have never used it before.
+
+----------------------------
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to use a separate branch when you're wokring on something that is tangential to the code in the master branch, for example when adding a new feature. Or when you're doing something experimental. Another good use for side branches is when you're collaborating with others on a project.
+
+The benefit to this is that you can work on something without worrying about messing up the master branch, which typically holds the main, working code.
