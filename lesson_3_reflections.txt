@@ -17,3 +17,9 @@ A fork is a copy of a GitHub repository. The fork resides on your GitHub account
 A clone is a copy of a repository. It's possible to clone a repository from GitHub onto your own local machine, or to clone a repository that already exists on your own machine so that you have two copies. You would clone a GitHub repository onto your own machine if you want to work on the repository.
 
 A branch is a label that's given to a series of commits. The branch label points to the most recent commit in a series of commits. Each time you commit, the branch label moves up automatically to point to this new commit. The default branch name in Git is 'master'. Creating a new branch adds a new branch label, that points to the most recent commit in the new branch.
+
+-----------------------------
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This makes it easy to know what changes have been made since the last pull from the remote repository.
